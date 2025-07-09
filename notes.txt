@@ -1,0 +1,66 @@
+PS C:\Users\DELL\Documents\advancedJava> javac -C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\lib\servlet-api.jar Slip29b.java
+Usage: javac <options> <source files>
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\lib\servlet-api.jar" Slip29b.java
+Usage: javac <options> <source files>
+vancedJava\apache-tomcat-9.0.98\webapps\programs\Slip29b.java"
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\lib\servlet-api.jar" "C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\webapps\programs\Slip26b.java"
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\lib\servlet-api.jar" "C:\Users\DELL\Documents\adPS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\lib\servlet-api.jar" "C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\webapps\programs\Slip23b.java"
+PS C:\Users\DELL\Documents\advancedJava> javac Slip23a.java
+Slip23a.java:7: error: invalid method declaration; return type required
+    public CollegeTable() {
+           ^
+1 error
+PS C:\Users\DELL\Documents\advancedJava> javac Slip23a.java
+Slip23a.java:34: error: cannot find symbol
+            CollegeTable frame = new CollegeTable();
+            ^
+  location: class Slip23a
+Slip23a.java:34: error: cannot find symbol
+            CollegeTable frame = new CollegeTable();
+                                     ^
+  symbol:   class CollegeTable
+  location: class Slip23a
+PS C:\Users\DELL\Documents\advancedJava> javac Slip15b.java
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip15b.java
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip11b.java
+PS C:\Users\DELL\Documents\advancedJava> java -cp ".;C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip11b    
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar;C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\lib\servlet-api.jar" "C:\Users\DELL\Documents\advancedJava\apache-tomcat-9.0.98\webapps\programs\Slip10b.java"
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip8b.java
+PS C:\Users\DELL\Documents\advancedJava> java Slip8b
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip8a.java
+PS C:\Users\DELL\Documents\advancedJava> java Slip8a
+        at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+        at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+        at java.base/java.lang.Class.forName0(Native Method)
+        at java.base/java.lang.Class.forName(Class.java:421)
+        at java.base/java.lang.Class.forName(Class.java:412)
+PS C:\Users\DELL\Documents\advancedJava> java -cp ".;C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip8a
+java.sql.SQLSyntaxErrorException: Unknown column 'EmpName' in 'field list'
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+        at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+        at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1312)
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip8a.java
+PS C:\Users\DELL\Documents\advancedJava> java -cp ".;C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip8a    
+PS C:\Users\DELL\Documents\advancedJava> javac Slip6a.java
+PS C:\Users\DELL\Documents\advancedJava> java Slip6a
+Caused by: java.lang.ClassNotFoundException: Slip6a
+PS C:\Users\DELL\Documents\advancedJava> javac Slip6a.java
+PS C:\Users\DELL\Documents\advancedJava> javac Slip6a.java
+PS C:\Users\DELL\Documents\advancedJava> java Slip6a      
+PS C:\Users\DELL\Documents\advancedJava> java -cp ".;C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip28b
+Error: Could not find or load main class Slip28b
+Caused by: java.lang.ClassNotFoundException: Slip28b
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip28b.java
+Slip28b.java:10: error: cannot find symbol
+    DefaultTableModel tableModel;
+    ^
+  location: class Slip28b
+2 errors
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip28b.java
+PS C:\Users\DELL\Documents\advancedJava> java -cp ".;C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip28b    
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip28b.java
+PS C:\Users\DELL\Documents\advancedJava> java -cp ".;C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip28b    
+PS C:\Users\DELL\Documents\advancedJava> javac -cp "C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip25b.java
+PS C:\Users\DELL\Documents\advancedJava> java -cp ".;C:\Users\DELL\Documents\advancedJava\mysql-connector-j-9.2.0.jar" Slip25b    
+PS C:\Users\DELL\Documents\advancedJava> 
