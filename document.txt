@@ -1,0 +1,5 @@
+this is a txt file
+of size 1kb
+named as document 
+located at User>Dell>Documents>advancedJava
+created on 02 February 2025
