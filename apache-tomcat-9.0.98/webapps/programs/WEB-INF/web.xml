@@ -1,0 +1,53 @@
+<web-app>
+
+<servlet>
+    <servlet-name>Slip29b</servlet-name>
+    <servlet-class>Slip29b</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>Slip26b</servlet-name>
+    <servlet-class>Slip26b</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>Slip23b</servlet-name>
+    <servlet-class>Slip23b</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>Slip10b</servlet-name>
+    <servlet-class>Slip10b</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>Slip6b</servlet-name>
+    <servlet-class>Slip6b</servlet-class>
+</servlet>
+<!-- <servlet>
+    <servlet-name>Slip21b</servlet-name>
+    <servlet-class>Slip21b</servlet-class>
+</servlet> -->
+
+<servlet-mapping>
+    <servlet-name>Slip29b</servlet-name>
+    <url-pattern>/Slip29b</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Slip26b</servlet-name>
+    <url-pattern>/Slip26b</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Slip23b</servlet-name>
+    <url-pattern>/Slip23b</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Slip10b</servlet-name>
+    <url-pattern>/Slip10b</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Slip6b</servlet-name>
+    <url-pattern>/Slip6b</url-pattern>
+</servlet-mapping>
+<!-- <servlet-mapping>
+    <servlet-name>Slip21b</servlet-name>
+    <url-pattern>/Slip21b</url-pattern>
+</servlet-mapping> -->
+
+</web-app>
